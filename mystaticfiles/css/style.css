@@ -1,0 +1,80 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.nav-tabs .nav-link {
+    font-family: 'Original Surfer', cursive;
+}
+
+section {
+    background: rgb(240, 240, 240);
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.top-nav-collapse {
+    background-color: #dc3545 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #dc3545 !important;
+    }
+}
+
+.rgba-gradient {
+    background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+    background: linear-gradient(to 45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+}
+
+.tab-pane img {
+    /* height: 180px;
+    width: 200px; */
+    transform: scale(1);
+    /* background: #eee; */
+    border: 1px solid #dc3545;
+    border-radius: 30px;
+    transition: all 0.4s;
+}
+
+.tab-pane img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    /* background: #fff; */
+    border: 1px solid transparent;
+    transition: all 0.4s;
+}
+
+.ceo-img {
+    height: 400px;
+    /* width: 200px;
+    margin-left: 80px; */
+}
+
+footer ul.footer-link li a {
+    padding-left: 0;
+    transition: all 0.4s;
+}
+
+footer ul.footer-link li a:hover {
+    padding-left: 10px;
+    transition: all 0.4s;
+}
